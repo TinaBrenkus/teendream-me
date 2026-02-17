@@ -3,14 +3,14 @@ export default function HeroSection() {
     <section className="min-h-screen flex flex-col justify-center px-6 md:px-10 pt-[120px] pb-20 relative overflow-hidden">
       {/* Decorative glows */}
       <div
-        className="absolute top-[10%] right-0 w-[500px] h-[500px] rounded-full blur-[80px] pointer-events-none"
+        className="hidden sm:block absolute top-[10%] right-0 w-[500px] h-[500px] rounded-full blur-[80px] pointer-events-none"
         style={{
           background:
             "radial-gradient(circle, rgba(196,59,82,0.04) 0%, transparent 70%)",
         }}
       />
       <div
-        className="absolute bottom-[15%] left-[5%] w-[400px] h-[400px] rounded-full blur-[80px] pointer-events-none"
+        className="hidden sm:block absolute bottom-[15%] left-[5%] w-[400px] h-[400px] rounded-full blur-[80px] pointer-events-none"
         style={{
           background:
             "radial-gradient(circle, rgba(46,107,138,0.03) 0%, transparent 70%)",
@@ -51,7 +51,7 @@ export default function HeroSection() {
       </div>
 
       {/* Stats bar */}
-      <div className="flex gap-12 mt-20 flex-wrap border-t border-border pt-10">
+      <div className="flex gap-6 md:gap-12 mt-20 flex-wrap border-t border-border pt-10">
         {[
           { num: "7", label: "Shipped Websites" },
           { num: "27", label: "Years Writing" },
