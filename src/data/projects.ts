@@ -34,7 +34,7 @@ export const PROJECTS: Project[] = [
   },
   {
     name: "Tao Life Lodge",
-    url: "https://github.com/TinaBrenkus/Tao-Retreat-v2",
+    url: "https://tao-retreat-v2.vercel.app",
     tag: "Booking Platform",
     desc: "Full-stack retreat and lodging booking platform for a Wisconsin wellness center. PayPal payment processing, room selection, event calendar, waitlist system, and admin dashboard. Built for a non-technical client. Pre-launch.",
     stack: "Next.js · PayPal · Vercel",
