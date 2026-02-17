@@ -28,10 +28,9 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-xl leading-[1.7] text-med max-w-[640px] mb-12 font-body font-light">
-          20 years of professional writing for E!&nbsp;Networks, Dallas Market
-          Center, and Women&rsquo;s Wear Daily. Seven websites built with Claude
-          Code + Vercel in the past year. I don&rsquo;t just use AI tools — I
-          build with them.
+          20 years of professional writing for E!&nbsp;Networks, Yahoo and
+          Best Buy. Seven websites built with Claude Code + Vercel in the past
+          year. I don&rsquo;t just use AI tools — I build with them.
         </p>
 
         <div className="flex gap-4 flex-wrap">
