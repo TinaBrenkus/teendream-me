@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://teendream.me"),
   title: "Tina Brenkus — Writer & AI Builder",
   description:
-    "27 years of professional writing meets AI-native development. Portfolio of brand campaigns, editorial work, and 7 websites built with Claude Code.",
+    "20 years of professional writing meets AI-native development. Portfolio of brand campaigns, editorial work, and 7 websites built with Claude Code.",
   openGraph: {
     title: "Tina Brenkus — Writer & AI Builder",
     description:
-      "27 years of professional writing meets AI-native development. Portfolio of brand campaigns, editorial work, and 7 websites built with Claude Code.",
+      "20 years of professional writing meets AI-native development. Portfolio of brand campaigns, editorial work, and 7 websites built with Claude Code.",
     type: "website",
     siteName: "TeenDream",
     url: "https://teendream.me",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tina Brenkus — Writer & AI Builder",
     description:
-      "27 years of professional writing meets AI-native development. Portfolio of brand campaigns, editorial work, and 7 websites built with Claude Code.",
+      "20 years of professional writing meets AI-native development. Portfolio of brand campaigns, editorial work, and 7 websites built with Claude Code.",
   },
 };
 

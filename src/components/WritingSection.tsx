@@ -1,31 +1,41 @@
+import Link from "next/link";
+
 const WRITING = [
   {
     category: "Brand & Campaign",
     color: "#C43B52",
     items: [
-      "E! Networks — Daily Pop show development, brand integrations, Fashion Week spots",
-      "Dallas Market Center — Lightovation, Total Home & Gift, KidsWorld campaigns",
-      "Best Buy / Spotswood — Videos, commercials, product launches, newsletters",
+      { text: "E! Networks — Daily Pop show development, brand integrations, Fashion Week spots" },
+      { text: "Dallas Market Center — Lightovation, Total Home & Gift, KidsWorld campaigns", slug: "dallas-market-center" },
+      { text: "Best Buy / Spotswood — Videos, commercials, product launches, newsletters" },
     ],
   },
   {
     category: "Editorial & Journalism",
     color: "#2E6B8A",
     items: [
-      "Women's Wear Daily — Fashion Week coverage on deadline",
-      "Yahoo — Digital content and entertainment features",
-      "Freelance — Fashion journalism, celebrity coverage, B2B trade writing",
+      { text: "Women's Wear Daily — Fashion Week coverage on deadline", slug: "wwd" },
+      { text: "Yahoo — Digital content and entertainment features" },
+      { text: "Freelance — Fashion journalism, celebrity coverage, B2B trade writing" },
     ],
   },
   {
     category: "Digital & Content Strategy",
     color: "#3D7C47",
     items: [
-      "New Western Real Estate — Instagram campaigns, brand voice, agent communications",
-      "SEO content strategy and long-form articles",
-      "Email campaigns, social media, executive communications and ghostwriting",
+      { text: "New Western Real Estate — Instagram campaigns, brand voice, agent communications", slug: "new-western" },
+      { text: "SEO content strategy and long-form articles" },
+      { text: "Email campaigns, social media, executive communications and ghostwriting" },
     ],
   },
+];
+
+const EXTRA_SAMPLES = [
+  { text: "Ranch Hand", slug: "ranch-hand" },
+  { text: "Beach Box", slug: "beach-box" },
+  { text: "Cooler Rest", slug: "cooler-rest" },
+  { text: "A Pep Filled Life", slug: "a-pep-filled-life" },
+  { text: "Authoritive", slug: "authoritive" },
 ];
 
 export default function WritingSection() {
@@ -36,7 +46,7 @@ export default function WritingSection() {
           Writing Portfolio
         </div>
         <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-16">
-          27 years of words <span className="italic">that worked.</span>
+          20 years of words <span className="italic">that worked.</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -53,9 +63,9 @@ export default function WritingSection() {
                 {section.category}
               </h3>
               {section.items.map((item, j) => (
-                <p
+                <div
                   key={j}
-                  className="text-[15px] leading-relaxed text-med font-body font-light mb-4 pb-4"
+                  className="mb-4 pb-4"
                   style={{
                     borderBottom:
                       j < section.items.length - 1
@@ -63,10 +73,37 @@ export default function WritingSection() {
                         : "none",
                   }}
                 >
-                  {item}
-                </p>
+                  {item.slug ? (
+                    <Link
+                      href={`/writing/${item.slug}`}
+                      className="text-[15px] leading-relaxed text-med font-body font-light no-underline hover:text-accent transition-colors duration-300 block"
+                    >
+                      {item.text} &rarr;
+                    </Link>
+                  ) : (
+                    <p className="text-[15px] leading-relaxed text-med font-body font-light">
+                      {item.text}
+                    </p>
+                  )}
+                </div>
               ))}
             </div>
+          ))}
+        </div>
+
+        {/* More writing samples */}
+        <div className="mt-12 flex flex-wrap gap-3">
+          <span className="text-[11px] tracking-[2px] uppercase text-light font-body font-semibold py-2">
+            More samples:
+          </span>
+          {EXTRA_SAMPLES.map((sample) => (
+            <Link
+              key={sample.slug}
+              href={`/writing/${sample.slug}`}
+              className="text-sm font-body text-med no-underline border border-border px-4 py-2 hover:text-accent hover:border-accent transition-colors duration-300"
+            >
+              {sample.text}
+            </Link>
           ))}
         </div>
 
@@ -79,7 +116,7 @@ export default function WritingSection() {
             Claude is my primary AI partner. I use it as a thinking multiplier —
             chaining prompts to explore angles, argue against my own ideas,
             compress research, and generate multi-format content. Then I override
-            every output with 27 years of editorial judgment. The AI makes me
+            every output with 20 years of editorial judgment. The AI makes me
             faster. The experience makes me right.
           </p>
         </div>

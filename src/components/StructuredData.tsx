@@ -6,7 +6,7 @@ export default function StructuredData() {
     url: "https://teendream.me",
     jobTitle: "Writer & AI Builder",
     description:
-      "27 years of professional writing meets AI-native development. Portfolio of brand campaigns, editorial work, and 7 websites built with Claude Code.",
+      "20 years of professional writing meets AI-native development. Portfolio of brand campaigns, editorial work, and 7 websites built with Claude Code.",
     sameAs: [
       "https://github.com/TinaBrenkus",
       "https://linkedin.com/in/tinabrenkus",

@@ -28,7 +28,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-xl leading-[1.7] text-med max-w-[640px] mb-12 font-body font-light">
-          27 years of professional writing for E!&nbsp;Networks, Dallas Market
+          20 years of professional writing for E!&nbsp;Networks, Dallas Market
           Center, and Women&rsquo;s Wear Daily. Seven websites built with Claude
           Code + Vercel in the past year. I don&rsquo;t just use AI tools — I
           build with them.
@@ -54,7 +54,7 @@ export default function HeroSection() {
       <div className="flex gap-6 md:gap-12 mt-20 flex-wrap border-t border-border pt-10">
         {[
           { num: "7", label: "Shipped Websites" },
-          { num: "27", label: "Years Writing" },
+          { num: "20", label: "Years Writing" },
           { num: "\u221E", label: "Ideas Per Minute" },
         ].map((stat) => (
           <div key={stat.label}>

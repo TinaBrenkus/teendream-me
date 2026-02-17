@@ -14,7 +14,7 @@ export default function AboutSection() {
           <p>
             I started writing professionally in 1997 — covering Fashion Week for
             Women&rsquo;s Wear Daily, creating content for E! Networks, and building
-            campaigns for brands that needed words to do real work. Over 27
+            campaigns for brands that needed words to do real work. Over 20
             years, I&rsquo;ve written for broadcast, print, digital, email, social,
             trade publications, and executive communications. I know how to find
             a brand&rsquo;s voice and make it carry.

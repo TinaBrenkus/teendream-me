@@ -3,7 +3,7 @@ const BLOG_POSTS = [
     title: "I Can\u2019t Code. I Just Shipped 7 Websites.",
     date: "Coming Soon",
     preview:
-      "What happens when a 27-year writer discovers Claude Code \u2014 and decides to build everything herself.",
+      "What happens when a 20-year writer discovers Claude Code \u2014 and decides to build everything herself.",
   },
   {
     title: "The Vibe Coder\u2019s Advantage",
