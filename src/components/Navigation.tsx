@@ -33,9 +33,9 @@ export default function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 h-[72px] px-6 md:px-10 flex justify-between items-center transition-all duration-400 ${
+      className={`fixed top-0 left-0 right-0 z-50 h-[72px] px-6 md:px-10 flex justify-between items-center transition-all duration-300 ${
         scrolled
-          ? "bg-linen/92 backdrop-blur-xl border-b border-border"
+          ? "bg-linen/90 backdrop-blur-xl border-b border-border"
           : "bg-transparent"
       }`}
     >

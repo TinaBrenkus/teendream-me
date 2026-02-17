@@ -16,18 +16,14 @@
   --font-body: 'Helvetica Neue', Arial, sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-body {
-  background: #FAF0E6;
-  color: #2C2C2C;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  body {
+    background: #FAF0E6;
+    color: #2C2C2C;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
 }

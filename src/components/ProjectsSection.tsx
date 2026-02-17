@@ -29,7 +29,7 @@ export default function ProjectsSection() {
               href={project.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="no-underline text-inherit p-8 transition-all duration-400 cursor-pointer relative block"
+              className="no-underline text-inherit p-8 transition-all duration-300 cursor-pointer relative block"
               style={{
                 background:
                   hoveredProject === i ? "#FFF8F0" : "#FAF0E6",
