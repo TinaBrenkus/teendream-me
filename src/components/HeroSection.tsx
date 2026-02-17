@@ -48,24 +48,6 @@ export default function HeroSection() {
           </a>
         </div>
       </div>
-
-      {/* Stats bar */}
-      <div className="flex gap-6 md:gap-12 mt-20 flex-wrap border-t border-border pt-10">
-        {[
-          { num: "7", label: "Shipped Websites" },
-          { num: "20", label: "Years Writing" },
-          { num: "\u221E", label: "Ideas Per Minute" },
-        ].map((stat) => (
-          <div key={stat.label}>
-            <div className="text-[40px] font-light text-accent font-editorial">
-              {stat.num}
-            </div>
-            <div className="text-xs tracking-[2px] uppercase text-light font-body mt-1">
-              {stat.label}
-            </div>
-          </div>
-        ))}
-      </div>
     </section>
   );
 }
