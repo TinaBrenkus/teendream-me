@@ -28,10 +28,7 @@ It was a constant hustle to come up with new and creative in person ideas that e
 We would host VIP parties and dinners, special merch, coffee lounges and expert speakers. We also ran a live podcast style show during the 4-6 markets per year.
 
 One of my favorites was a simple "Y'all Wall". People were lining up to take pictures in front of it and posting to social media.`,
-    images: [
-      "DallasMarketCenterlogo.avif",
-      "YallWallDallasMarketCenter.avif",
-    ],
+    images: [],
   },
   {
     slug: "wwd",
@@ -54,7 +51,7 @@ Hey, your boss reads it! Get fashion-smart with WWD for 60% off. A $1.50 a week 
 
 **FACEBOOK AD 3**
 Want access to the only resource that gets you ahead in fashion? Grab WWD for $1.50 a week for 1 year. Be smart & stylish. Subscribe now for fashion and beauty industry news coverage, trends, insights and analysis.`,
-    images: ["WWDlogo.avif"],
+    images: [],
   },
   {
     slug: "ranch-hand",
@@ -107,14 +104,7 @@ I launched a video program with longer form content than just social shorts. I i
 
 **Ghost writing and thought leadership**
 I worked closely with the president and co founder of New Western to write thought leadership articles about the housing market. I'm passionate about what's happening in the housing market and finding solutions to the affordability crisis.`,
-    images: [
-      "NewWesternlogo.avif",
-      "NewWesternHomepage.avif",
-      "FlipSideReport.avif",
-      "TheInvestorStoryThumbnail.avif",
-      "NasdaqArticleHeaderImage.avif",
-      "BiggerPocketsArticleHeaderimage.avif",
-    ],
+    images: [],
     links: [
       {
         label: "The Flip Side Report",
@@ -148,7 +138,7 @@ Another super fun project where the client's business exploded and they expanded
 My job was to brainstorm a new name, origin story, and website copy.
 
 And Beachbox was born.`,
-    images: ["BeachBoxlogo.avif"],
+    images: [],
     links: [{ label: "Stay Beach Box", url: "https://staybeachbox.com/" }],
   },
   {
@@ -230,12 +220,7 @@ Your Confidence Code is a course based on a NY Times bestselling book, The Confi
 
 **THE FUTURE-READY LEADER**
 I worked with Dr. Tasha Eurich to promote and sell her course, The Future-Ready Leader, based on her book, Insight. I created and wrote the content for the landing page of her website. I also strategized and wrote email campaigns to sell the course. This email series needed to be content driven, in Dr. Eurich's voice and targeting an audience of business executives on her email list.`,
-    images: [
-      "Authoritivelogo.avif",
-      "ConfidenceCodeImage.avif",
-      "WriteDaybyDaylogo.avif",
-      "TashaEurichBioimage.avif",
-    ],
+    images: [],
     links: [
       { label: "Write Day by Day", url: "https://writedaybyday.com/" },
       {
