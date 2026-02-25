@@ -401,13 +401,9 @@ function WritingPortfolioSection() {
         <div className="font-body text-[13px] tracking-[4px] uppercase text-[#253c59] mb-4 font-semibold">
           Writing Portfolio
         </div>
-        <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-4">
-          See the <span className="text-light">actual work.</span>
+        <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-16">
+          Select <span className="text-light">Client Work.</span>
         </h2>
-        <p className="text-lg text-med max-w-[600px] mb-16 font-body font-light leading-relaxed">
-          Case studies, sample copy, and campaign details from each client
-          engagement.
-        </p>
 
         <div className="flex flex-col">
           {WRITING_PROJECTS.map((project, i) => (
