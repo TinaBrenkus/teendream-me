@@ -212,8 +212,8 @@ Co-founded by veteran literary agent Christy Fletcher and entrepreneur Eric Ries
 
 I did everything to help this company grow, from landing pages, social media, course content, sales emails and a whole lot of brainstorming, ideating and strategy.
 
-**WRITE DAY BY DAY**
-Write Day by Day is a 30 day SMS program from author and writing coach Courtney Maum that helps writers stay accountable and create content daily. I launched an Instagram channel — developed, wrote and created the editorial calendar.
+**[WRITE DAY BY DAY](https://market.authoritive.com/write-day-by-day-1)**
+Write Day by Day is a 30 day SMS program from author and writing coach Courtney Maum that helps writers stay accountable and create content daily. [I launched an Instagram channel](https://www.instagram.com/writedaybyday/) — developed, wrote and created the editorial calendar.
 
 **YOUR CONFIDENCE CODE**
 Your Confidence Code is a course based on a NY Times bestselling book, The Confidence Code by journalists and authors Katty Kay and Claire Shipman. I created the strategy and wrote the content for the sales landing page. I also created email newsletters to warm up their email list, sales email sequences, and course content.
@@ -221,12 +221,5 @@ Your Confidence Code is a course based on a NY Times bestselling book, The Confi
 **THE FUTURE-READY LEADER**
 I worked with Dr. Tasha Eurich to promote and sell her course, The Future-Ready Leader, based on her book, Insight. I created and wrote the content for the landing page of her website. I also strategized and wrote email campaigns to sell the course. This email series needed to be content driven, in Dr. Eurich's voice and targeting an audience of business executives on her email list.`,
     images: [],
-    links: [
-      { label: "Write Day by Day", url: "https://writedaybyday.com/" },
-      {
-        label: "Your Confidence Code",
-        url: "https://learnconfidencecode.com/",
-      },
-    ],
   },
 ];

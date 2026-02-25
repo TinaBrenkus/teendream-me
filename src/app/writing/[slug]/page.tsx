@@ -43,6 +43,28 @@ export default async function WritingSamplePage({ params }: PageProps) {
 
   const paragraphs = sample.content.split("\n\n");
 
+  // Parse [text](url) markdown links into React elements
+  function renderWithLinks(text: string) {
+    const parts = text.split(/(\[.+?\]\(.+?\))/g);
+    return parts.map((part, i) => {
+      const match = part.match(/^\[(.+?)\]\((.+?)\)$/);
+      if (match) {
+        return (
+          <a
+            key={i}
+            href={match[2]}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent no-underline border-b border-accent/30 hover:border-accent transition-colors"
+          >
+            {match[1]}
+          </a>
+        );
+      }
+      return part;
+    });
+  }
+
   return (
     <>
       <Navigation />
@@ -90,7 +112,7 @@ export default async function WritingSamplePage({ params }: PageProps) {
                     key={i}
                     className="font-editorial text-xl text-charcoal mt-10 mb-4"
                   >
-                    {text}
+                    {renderWithLinks(text)}
                   </h3>
                 );
               }
@@ -100,10 +122,10 @@ export default async function WritingSamplePage({ params }: PageProps) {
                   return (
                     <div key={i} className="mt-10 mb-4">
                       <h3 className="font-editorial text-xl text-charcoal mb-2">
-                        {match[1]}
+                        {renderWithLinks(match[1])}
                       </h3>
                       <p className="text-[16px] leading-[1.8] text-med font-body font-light">
-                        {match[2]}
+                        {renderWithLinks(match[2])}
                       </p>
                     </div>
                   );
@@ -114,7 +136,7 @@ export default async function WritingSamplePage({ params }: PageProps) {
                   key={i}
                   className="text-[16px] leading-[1.8] text-med font-body font-light mb-6"
                 >
-                  {paragraph}
+                  {renderWithLinks(paragraph)}
                 </p>
               );
             })}
