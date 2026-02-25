@@ -141,10 +141,12 @@ function WriterHero() {
         </h1>
 
         <p className="text-xl leading-[1.7] text-med max-w-[640px] mb-12 font-body font-light">
-          8+ years of brand copywriting and content strategy across digital,
-          social, video, email, retail, DTC, and experiential. Plus a decade of
-          entertainment production that means I write copy built for cameras,
-          stages, and screens — not just decks.
+          I&rsquo;m a Senior Copywriter with 8+ years of brand copywriting,
+          content strategy and short form video production experience.
+          <br /><br />
+          I kick out consistent, on-brand content across all communication touch
+          points and channels. I&rsquo;m as comfortable on a video set as I am
+          sitting behind the laptop whipping out words.
         </p>
 
         <div className="flex gap-4 flex-wrap">
