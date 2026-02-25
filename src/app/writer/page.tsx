@@ -217,12 +217,7 @@ function BrandWorkSection() {
           Writing that builds{" "}
           <span className="text-light">brands.</span>
         </h2>
-        <p className="text-lg text-med max-w-[600px] mb-16 font-body font-light leading-relaxed">
-          From startup brand voice to enterprise content strategy — copy that
-          drives campaigns, not just fills decks.
-        </p>
-
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 mt-16">
           {BRAND_WORK.map((project, i) => (
             <div
               key={project.company}
