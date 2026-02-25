@@ -478,17 +478,6 @@ function ProductionSection() {
         <div className="font-body text-[13px] tracking-[4px] uppercase text-[#3D7C47] mb-4 font-semibold">
           Entertainment &amp; Production
         </div>
-        <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-4">
-          A decade behind{" "}
-          <span className="text-light">the camera.</span>
-        </h2>
-        <p className="text-lg text-med max-w-[700px] mb-16 font-body font-light leading-relaxed">
-          Before I was a brand copywriter, I spent over a decade writing and
-          producing video content for major entertainment and media companies.
-          This background means I write scripts that are shootable, I understand
-          on-set needs, and I deliver under daily broadcast deadlines. Most
-          copywriters can&rsquo;t say that.
-        </p>
 
         <div className="flex flex-col">
           {PRODUCTION_CREDITS.map((credit, i) => (
