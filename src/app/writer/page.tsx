@@ -56,7 +56,7 @@ function WriterNav() {
             onClick={() => scrollTo(item.toLowerCase())}
             className={`text-[13px] tracking-[2px] uppercase font-body font-medium transition-colors duration-300 bg-transparent border-none cursor-pointer ${
               activeSection === item.toLowerCase()
-                ? "text-accent"
+                ? "text-[#253c59]"
                 : "text-light hover:text-dark"
             }`}
           >
@@ -97,7 +97,7 @@ function WriterNav() {
               onClick={() => scrollTo(item.toLowerCase())}
               className={`text-left text-[13px] tracking-[2px] uppercase font-body font-medium py-3 bg-transparent border-none cursor-pointer ${
                 activeSection === item.toLowerCase()
-                  ? "text-accent"
+                  ? "text-[#253c59]"
                   : "text-light"
               }`}
             >
@@ -119,7 +119,7 @@ function WriterHero() {
         className="hidden sm:block absolute top-[10%] right-0 w-[500px] h-[500px] rounded-full blur-[80px] pointer-events-none"
         style={{
           background:
-            "radial-gradient(circle, rgba(196,59,82,0.04) 0%, transparent 70%)",
+            "radial-gradient(circle, rgba(37,60,89,0.06) 0%, transparent 70%)",
         }}
       />
       <div
@@ -131,13 +131,13 @@ function WriterHero() {
       />
 
       <div className="max-w-[900px] relative z-10">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-accent mb-6 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#253c59] mb-6 font-semibold">
           Copywriter &middot; Brand Strategist &middot; Producer
         </div>
 
         <h1 className="font-editorial text-[clamp(48px,7vw,88px)] leading-[1.05] font-normal text-charcoal mb-8">
           Senior Copywriter &{" "}
-          <span className="italic text-accent">Brand Storyteller.</span>
+          <span className="italic text-[#253c59]">Brand Storyteller.</span>
         </h1>
 
         <p className="text-xl leading-[1.7] text-med max-w-[640px] mb-12 font-body font-light">
@@ -150,7 +150,7 @@ function WriterHero() {
         <div className="flex gap-4 flex-wrap">
           <a
             href="#work"
-            className="bg-accent text-white px-8 py-3.5 text-sm font-body tracking-[2px] uppercase font-semibold transition-all duration-300 hover:opacity-90 inline-block"
+            className="bg-[#253c59] text-white px-8 py-3.5 text-sm font-body tracking-[2px] uppercase font-semibold transition-all duration-300 hover:opacity-90 inline-block"
           >
             See My Work
           </a>
@@ -208,7 +208,7 @@ function BrandWorkSection() {
   return (
     <section id="work" className="py-[120px] px-6 md:px-10 bg-cream">
       <div className="max-w-[1100px] mx-auto">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-accent mb-4 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#253c59] mb-4 font-semibold">
           Brand Campaign Work
         </div>
         <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-4">
@@ -368,12 +368,12 @@ function EditorialSection() {
           </p>
 
           <div className="flex flex-col gap-4 max-w-[600px]">
-            <blockquote className="border-l-2 border-accent/30 pl-5 py-2 text-med font-editorial text-[15px] leading-relaxed italic">
+            <blockquote className="border-l-2 border-[#253c59]/30 pl-5 py-2 text-med font-editorial text-[15px] leading-relaxed italic">
               &ldquo;Kicking off a fashion career? Get ahead w/ industry news,
               trends &amp; event coverage w/ WWD. One year is only $1.50 a
               week.&rdquo;
             </blockquote>
-            <blockquote className="border-l-2 border-accent/30 pl-5 py-2 text-med font-editorial text-[15px] leading-relaxed italic">
+            <blockquote className="border-l-2 border-[#253c59]/30 pl-5 py-2 text-med font-editorial text-[15px] leading-relaxed italic">
               &ldquo;Hey, your boss reads it! Get fashion-smart with WWD for 60%
               off. A $1.50 a week for 1 year gets you inside and
               ahead.&rdquo;
@@ -568,7 +568,7 @@ function WriterContact() {
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
                 }
-                className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none transition-colors duration-300 focus:border-accent"
+                className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none transition-colors duration-300 focus:border-[#253c59]"
               />
             </div>
             <div>
@@ -582,7 +582,7 @@ function WriterContact() {
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
                 }
-                className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none transition-colors duration-300 focus:border-accent"
+                className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none transition-colors duration-300 focus:border-[#253c59]"
               />
             </div>
           </div>
@@ -597,14 +597,14 @@ function WriterContact() {
               onChange={(e) =>
                 setFormData({ ...formData, message: e.target.value })
               }
-              className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none resize-y transition-colors duration-300 focus:border-accent"
+              className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none resize-y transition-colors duration-300 focus:border-[#253c59]"
             />
           </div>
 
           <button
             type="submit"
             disabled={status === "sending"}
-            className="self-start bg-accent text-white px-10 py-4 text-sm font-body tracking-[2px] uppercase font-semibold transition-all duration-300 hover:opacity-90 disabled:opacity-60 border-none cursor-pointer"
+            className="self-start bg-[#253c59] text-white px-10 py-4 text-sm font-body tracking-[2px] uppercase font-semibold transition-all duration-300 hover:opacity-90 disabled:opacity-60 border-none cursor-pointer"
           >
             {status === "sending" ? "Sending..." : "Send Message"}
           </button>
@@ -615,7 +615,7 @@ function WriterContact() {
             </p>
           )}
           {status === "error" && (
-            <p className="text-accent font-body text-sm font-medium">
+            <p className="text-[#253c59] font-body text-sm font-medium">
               Something went wrong. Please email me directly at
               tinalbrenkus@gmail.com
             </p>
@@ -649,7 +649,7 @@ function WriterContact() {
                 href={link.href}
                 target={link.href.startsWith("http") ? "_blank" : undefined}
                 rel="noopener noreferrer"
-                className="text-dark no-underline text-[15px] font-body border-b border-transparent hover:border-accent transition-colors duration-300"
+                className="text-dark no-underline text-[15px] font-body border-b border-transparent hover:border-[#253c59] transition-colors duration-300"
               >
                 {link.value}
               </a>
