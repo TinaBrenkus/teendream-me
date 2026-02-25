@@ -725,7 +725,6 @@ export default function WriterPage() {
       <WriterNav />
       <WriterHero />
       <BrandWorkSection />
-      <EditorialSection />
       <WritingPortfolioSection />
       <ProductionSection />
       <WriterAbout />
