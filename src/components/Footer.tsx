@@ -4,9 +4,6 @@ export default function Footer() {
       <div className="text-[13px] text-light font-body">
         &copy; 2026 Tina Brenkus. Built with Claude Code.
       </div>
-      <div className="text-xs text-light font-body tracking-[1px] italic">
-        This site is its own portfolio piece.
-      </div>
     </footer>
   );
 }

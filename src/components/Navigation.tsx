@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 
-const NAV_ITEMS = ["Projects", "Writing", "About", "Contact"];
+const NAV_ITEMS = ["Writing", "Projects", "About", "Contact"];
 
 export default function Navigation() {
   const [activeSection, setActiveSection] = useState("");

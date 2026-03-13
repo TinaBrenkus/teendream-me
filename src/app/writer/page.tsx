@@ -200,7 +200,7 @@ const BRAND_WORK = [
     description:
       "Led content creation and strategy for an internal creative agency in Shiner, Texas. Wrote copy across digital, video, email campaigns, commercials, company launches, sales pitches, press releases, corporate communications, print, and social media for a diverse client roster.",
     tags: ["Agency", "Multi-Client", "Full-Channel Copy"],
-    color: "#8B6914",
+    color: "#666666",
   },
 ];
 
@@ -289,7 +289,7 @@ function EditorialSection() {
   return (
     <section className="py-[120px] px-6 md:px-10 bg-linen">
       <div className="max-w-[1100px] mx-auto">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#8B6914] mb-4 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#666666] mb-4 font-semibold">
           Editorial &amp; Freelance
         </div>
         <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-16">
@@ -585,7 +585,7 @@ function WriterContact() {
   return (
     <section id="contact" className="py-[120px] px-6 md:px-10 bg-cream">
       <div className="max-w-[700px] mx-auto">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#8B6914] mb-4 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#666666] mb-4 font-semibold">
           Contact
         </div>
         <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-4">

@@ -200,6 +200,43 @@ I created an Etsy shop to have a home for my digital wall art.`,
     ],
   },
   {
+    slug: "e-networks",
+    title: "E! Networks",
+    client: "E! Networks",
+    industry: "Entertainment / Broadcast / Fashion",
+    description:
+      "Senior writer and content producer creating daily scripts, a 26-episode Fashion Week franchise, brand integrations, and social content.",
+    content: `As a Senior Writer and Content Producer at E! Networks, I wrote daily scripts for Daily Pop — a live entertainment news show covering celebrity culture, pop culture, and trending stories.
+
+**Daily Pop**
+Writing for live television meant fast turnarounds, sharp humor, and copy that worked for both teleprompter delivery and social media clips. Every script had to land with the hosts and the audience watching at home.
+
+**Fashion Week Franchise**
+I created a 26-episode Fashion Week franchise for broadcast and digital — covering runway shows, designer interviews, and trend reports across New York, London, Milan, and Paris Fashion Weeks.
+
+**Brand Integrations & Social**
+I also wrote brand integration scripts and social content, ensuring sponsored segments felt organic within the show's voice and tone.`,
+    images: [],
+  },
+  {
+    slug: "ai-money",
+    title: "Contrarian Thinking / AI Money",
+    client: "Contrarian Thinking / AI Money",
+    industry: "Newsletter / AI / Finance",
+    description:
+      "Newsletter writer creating welcome sequences and content strategy for AI Money, a new newsletter from Contrarian Thinking (Codie Sanchez).",
+    content: `I worked with Contrarian Thinking — Codie Sanchez's media company with 800K+ subscribers — to write and develop content strategy for their new AI-focused newsletter, AI Money.
+
+**Welcome Newsletter**
+I wrote the welcome newsletter sequence for new AI Money subscribers — the critical first touchpoints that set the tone, establish trust, and drive engagement for the new publication.
+
+**Content Strategy**
+I developed the content strategy for AI Money, helping define the editorial voice, content pillars, and newsletter structure for an audience interested in practical AI applications for business and investing.
+
+The work required balancing Codie Sanchez's established brand voice with a new AI-focused editorial direction — making complex AI topics accessible and actionable for an entrepreneurial audience.`,
+    images: [],
+  },
+  {
     slug: "authoritive",
     title: "Authoritive",
     client: "Authoritive",

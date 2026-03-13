@@ -10,16 +10,15 @@ export default function ProjectsSection() {
     <section id="projects" className="py-[120px] px-6 md:px-10 bg-cream">
       <div className="max-w-[1100px] mx-auto">
         <div className="font-body text-[13px] tracking-[4px] uppercase text-accent mb-4 font-semibold">
-          Shipped Projects
+          Built with AI
         </div>
         <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-4">
-          Built with Claude Code.{" "}
-          <span className="text-light">Deployed on Vercel.</span>
+          7 websites shipped.{" "}
+          <span className="text-light">All built with Claude Code.</span>
         </h2>
         <p className="text-lg text-med max-w-[600px] mb-16 font-body font-light leading-relaxed">
-          Every project below went from concept to live product — I wrote the
-          specs, built with AI, managed Git workflows, configured deployments,
-          and shipped.
+          7 websites built from concept to deployment using Claude Code,
+          Next.js, and Vercel. Full spec, copy, UX, and build for each project.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -62,7 +61,7 @@ export default function ProjectsSection() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke={
-                    hoveredProject === i ? project.color : "#8A7F7F"
+                    hoveredProject === i ? project.color : "#777777"
                   }
                   strokeWidth="2"
                   className="transition-all duration-300"

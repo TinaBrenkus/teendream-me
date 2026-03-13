@@ -13,7 +13,7 @@ export default function AboutSection() {
           <div className="shrink-0">
             <div className="w-[200px] h-[200px] md:w-[260px] md:h-[260px] rounded-full overflow-hidden border-4 border-linen shadow-[0_8px_32px_rgba(0,0,0,0.08)]">
               <Image
-                src="/images/portfolio/tina-s-profile-pic-2025-2-dOqD394V1VsyO441.avif"
+                src="/images/portfolio/TinaBrenkusProfilePicCrimson.jpg"
                 alt="Tina Brenkus"
                 width={520}
                 height={520}
@@ -25,20 +25,20 @@ export default function AboutSection() {
           {/* Copy */}
           <div className="flex flex-col gap-6 text-[17px] leading-[1.8] text-med font-editorial text-center md:text-left">
             <p>
-              What started as a teen dream giving tours of The Tonight Show at
-              NBC in Burbank turned into a writing career creating short-form
-              video for live entertainment television broadcasts.
-            </p>
-            <p>And led to creating content for brands big and small.</p>
-            <p>
-              From Dallas to Los Angeles, New York and Minneapolis I&rsquo;m now
-              a native AI writer and vibe coder who can wield Claude like a
-              well-oiled machine and launch products as a wild-one-woman band.
+              I&rsquo;ve spent my career writing for brands and cameras — from
+              the writers&rsquo; room at E!&nbsp;Networks to building brand
+              voice for national companies. In the past year, I&rsquo;ve also
+              become an AI builder, shipping 7 websites with Claude Code and
+              Vercel.
             </p>
             <p>
-              I live in Texas on the family ranch, grazing cattle, tackling a
-              large garden, hoping to grow food and flowers and make the world a
-              better place (one baby step at a time).
+              I think in campaigns, not just executions. I write copy built for
+              production, not just presentation. And I bring ideas to every
+              brainstorm that make the work better.
+            </p>
+            <p>
+              I&rsquo;m based in Texas. Available for full-time, contract, and
+              remote roles.
             </p>
           </div>
         </div>
