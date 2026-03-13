@@ -25,7 +25,7 @@ export default function HeroSection() {
         <h1 className="font-editorial text-[clamp(48px,7vw,88px)] leading-[1.05] font-normal text-charcoal mb-8">
           I write for brands{" "}
           <span className="italic text-accent">
-            and I build content with AI.
+            and build content with AI.
           </span>
         </h1>
 
