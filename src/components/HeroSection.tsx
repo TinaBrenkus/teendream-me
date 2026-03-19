@@ -6,14 +6,14 @@ export default function HeroSection() {
         className="hidden sm:block absolute top-[10%] right-0 w-[500px] h-[500px] rounded-full blur-[80px] pointer-events-none"
         style={{
           background:
-            "radial-gradient(circle, rgba(196,59,82,0.04) 0%, transparent 70%)",
+            "radial-gradient(circle, rgba(224,122,58,0.06) 0%, transparent 70%)",
         }}
       />
       <div
         className="hidden sm:block absolute bottom-[15%] left-[5%] w-[400px] h-[400px] rounded-full blur-[80px] pointer-events-none"
         style={{
           background:
-            "radial-gradient(circle, rgba(46,107,138,0.03) 0%, transparent 70%)",
+            "radial-gradient(circle, rgba(224,122,58,0.04) 0%, transparent 70%)",
         }}
       />
 

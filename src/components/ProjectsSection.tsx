@@ -31,11 +31,11 @@ export default function ProjectsSection() {
               className="no-underline text-inherit p-8 transition-all duration-300 cursor-pointer relative block"
               style={{
                 background:
-                  hoveredProject === i ? "#FFF8F0" : "#FAF0E6",
+                  hoveredProject === i ? "#FFFBF5" : "#FFF5EB",
                 border: `1px solid ${
                   hoveredProject === i
                     ? project.color + "30"
-                    : "rgba(44,44,44,0.1)"
+                    : "#E8D5C4"
                 }`,
                 boxShadow:
                   hoveredProject === i
@@ -61,7 +61,7 @@ export default function ProjectsSection() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke={
-                    hoveredProject === i ? project.color : "#777777"
+                    hoveredProject === i ? project.color : "#9A8576"
                   }
                   strokeWidth="2"
                   className="transition-all duration-300"
@@ -77,11 +77,7 @@ export default function ProjectsSection() {
               </div>
 
               <h3
-                className="text-2xl font-normal font-editorial mb-3 transition-colors duration-300"
-                style={{
-                  color:
-                    hoveredProject === i ? "#1A1A2E" : "#2C2C2C",
-                }}
+                className="text-2xl font-normal font-editorial mb-3 transition-colors duration-300 text-charcoal"
               >
                 {project.name}
               </h3>

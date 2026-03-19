@@ -56,7 +56,7 @@ function WriterNav() {
             onClick={() => scrollTo(item.toLowerCase())}
             className={`text-[13px] tracking-[2px] uppercase font-body font-medium transition-colors duration-300 bg-transparent border-none cursor-pointer ${
               activeSection === item.toLowerCase()
-                ? "text-[#253c59]"
+                ? "text-[#E07A3A]"
                 : "text-light hover:text-dark"
             }`}
           >
@@ -97,7 +97,7 @@ function WriterNav() {
               onClick={() => scrollTo(item.toLowerCase())}
               className={`text-left text-[13px] tracking-[2px] uppercase font-body font-medium py-3 bg-transparent border-none cursor-pointer ${
                 activeSection === item.toLowerCase()
-                  ? "text-[#253c59]"
+                  ? "text-[#E07A3A]"
                   : "text-light"
               }`}
             >
@@ -131,13 +131,13 @@ function WriterHero() {
       />
 
       <div className="max-w-[900px] relative z-10">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#253c59] mb-6 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#E07A3A] mb-6 font-semibold">
           Copywriter &middot; Brand Strategist &middot; Producer
         </div>
 
         <h1 className="font-editorial text-[clamp(48px,7vw,88px)] leading-[1.05] font-normal text-charcoal mb-8">
           Senior Copywriter &{" "}
-          <span className="italic text-[#253c59]">Brand Storyteller.</span>
+          <span className="italic text-[#E07A3A]">Brand Storyteller.</span>
         </h1>
 
         <p className="text-xl leading-[1.7] text-med max-w-[640px] mb-12 font-body font-light">
@@ -152,7 +152,7 @@ function WriterHero() {
         <div className="flex gap-4 flex-wrap">
           <a
             href="#work"
-            className="bg-[#253c59] text-white px-8 py-3.5 text-sm font-body tracking-[2px] uppercase font-semibold transition-all duration-300 hover:opacity-90 inline-block"
+            className="bg-[#E07A3A] text-white px-8 py-3.5 text-sm font-body tracking-[2px] uppercase font-semibold transition-all duration-300 hover:opacity-90 inline-block"
           >
             See My Work
           </a>
@@ -177,7 +177,7 @@ const BRAND_WORK = [
     description:
       "Built the brand voice from scratch for a national real estate investment marketplace. Wrote across every channel — email campaigns, social ads, Instagram content, product launches, executive communications, agent onboarding, and national media placements. Partnered daily with designers, strategists, and sales leadership across a network of 2,000+ agents.",
     tags: ["Brand Voice", "Email", "Social", "Advertising", "Internal Comms"],
-    color: "#253c59",
+    color: "#E07A3A",
   },
   {
     company: "Dallas Market Center",
@@ -191,7 +191,7 @@ const BRAND_WORK = [
       "Multi-Channel",
       "B2B + B2C",
     ],
-    color: "#3D7C47",
+    color: "#E07A3A",
   },
   {
     company: "Espresso Agency",
@@ -200,7 +200,7 @@ const BRAND_WORK = [
     description:
       "Led content creation and strategy for an internal creative agency in Shiner, Texas. Wrote copy across digital, video, email campaigns, commercials, company launches, sales pitches, press releases, corporate communications, print, and social media for a diverse client roster.",
     tags: ["Agency", "Multi-Client", "Full-Channel Copy"],
-    color: "#666666",
+    color: "#E07A3A",
   },
 ];
 
@@ -210,7 +210,7 @@ function BrandWorkSection() {
   return (
     <section id="work" className="py-[120px] px-6 md:px-10 bg-cream">
       <div className="max-w-[1100px] mx-auto">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#253c59] mb-4 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#E07A3A] mb-4 font-semibold">
           Brand Campaign Work
         </div>
         <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-4">
@@ -223,7 +223,7 @@ function BrandWorkSection() {
               key={project.company}
               className="p-8 transition-all duration-300"
               style={{
-                background: hovered === i ? "#FFF8F0" : "#FAF0E6",
+                background: hovered === i ? "#FFFBF5" : "#FFF5EB",
                 border: `1px solid ${
                   hovered === i
                     ? project.color + "30"
@@ -242,7 +242,7 @@ function BrandWorkSection() {
                   <h3
                     className="text-2xl font-normal font-editorial mb-1 transition-colors duration-300"
                     style={{
-                      color: hovered === i ? "#1A1A2E" : "#2C2C2C",
+                      color: hovered === i ? "#2D1F14" : "#2D1F14",
                     }}
                   >
                     {project.company}
@@ -289,7 +289,7 @@ function EditorialSection() {
   return (
     <section className="py-[120px] px-6 md:px-10 bg-linen">
       <div className="max-w-[1100px] mx-auto">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#666666] mb-4 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#E07A3A] mb-4 font-semibold">
           Editorial &amp; Freelance
         </div>
         <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-16">
@@ -365,12 +365,12 @@ function EditorialSection() {
           </p>
 
           <div className="flex flex-col gap-4 max-w-[600px]">
-            <blockquote className="border-l-2 border-[#253c59]/30 pl-5 py-2 text-med font-editorial text-[15px] leading-relaxed italic">
+            <blockquote className="border-l-2 border-[#E07A3A]/30 pl-5 py-2 text-med font-editorial text-[15px] leading-relaxed italic">
               &ldquo;Kicking off a fashion career? Get ahead w/ industry news,
               trends &amp; event coverage w/ WWD. One year is only $1.50 a
               week.&rdquo;
             </blockquote>
-            <blockquote className="border-l-2 border-[#253c59]/30 pl-5 py-2 text-med font-editorial text-[15px] leading-relaxed italic">
+            <blockquote className="border-l-2 border-[#E07A3A]/30 pl-5 py-2 text-med font-editorial text-[15px] leading-relaxed italic">
               &ldquo;Hey, your boss reads it! Get fashion-smart with WWD for 60%
               off. A $1.50 a week for 1 year gets you inside and
               ahead.&rdquo;
@@ -398,7 +398,7 @@ function WritingPortfolioSection() {
   return (
     <section className="py-[120px] px-6 md:px-10 bg-cream">
       <div className="max-w-[1100px] mx-auto">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#253c59] mb-4 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#E07A3A] mb-4 font-semibold">
           Writing Portfolio
         </div>
         <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-16">
@@ -419,14 +419,14 @@ function WritingPortfolioSection() {
               }}
             >
               <div>
-                <span className="font-editorial text-2xl md:text-3xl text-charcoal group-hover:text-[#253c59] transition-colors duration-300 block">
+                <span className="font-editorial text-2xl md:text-3xl text-charcoal group-hover:text-[#E07A3A] transition-colors duration-300 block">
                   {project.name}
                 </span>
                 <span className="text-xs tracking-[1px] font-body text-light mt-1 block">
                   {project.industry}
                 </span>
               </div>
-              <span className="text-light group-hover:text-[#253c59] transition-all duration-300 group-hover:translate-x-1">
+              <span className="text-light group-hover:text-[#E07A3A] transition-all duration-300 group-hover:translate-x-1">
                 &rarr;
               </span>
             </a>
@@ -475,7 +475,7 @@ function ProductionSection() {
   return (
     <section id="production" className="py-[120px] px-6 md:px-10 bg-cream">
       <div className="max-w-[1100px] mx-auto">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#3D7C47] mb-4 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#E07A3A] mb-4 font-semibold">
           Entertainment &amp; Production
         </div>
 
@@ -508,7 +508,7 @@ function WriterAbout() {
   return (
     <section id="about" className="py-[120px] px-6 md:px-10 bg-linen">
       <div className="max-w-[900px] mx-auto">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#3D7C47] mb-12 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#E07A3A] mb-12 font-semibold">
           About
         </div>
 
@@ -585,7 +585,7 @@ function WriterContact() {
   return (
     <section id="contact" className="py-[120px] px-6 md:px-10 bg-cream">
       <div className="max-w-[700px] mx-auto">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#666666] mb-4 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#E07A3A] mb-4 font-semibold">
           Contact
         </div>
         <h2 className="font-editorial text-[clamp(36px,5vw,56px)] font-normal leading-[1.1] text-charcoal mb-4">
@@ -610,7 +610,7 @@ function WriterContact() {
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
                 }
-                className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none transition-colors duration-300 focus:border-[#253c59]"
+                className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none transition-colors duration-300 focus:border-[#E07A3A]"
               />
             </div>
             <div>
@@ -624,7 +624,7 @@ function WriterContact() {
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
                 }
-                className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none transition-colors duration-300 focus:border-[#253c59]"
+                className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none transition-colors duration-300 focus:border-[#E07A3A]"
               />
             </div>
           </div>
@@ -639,25 +639,25 @@ function WriterContact() {
               onChange={(e) =>
                 setFormData({ ...formData, message: e.target.value })
               }
-              className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none resize-y transition-colors duration-300 focus:border-[#253c59]"
+              className="w-full bg-linen border border-border px-4 py-3.5 text-dark text-[15px] font-body outline-none resize-y transition-colors duration-300 focus:border-[#E07A3A]"
             />
           </div>
 
           <button
             type="submit"
             disabled={status === "sending"}
-            className="self-start bg-[#253c59] text-white px-10 py-4 text-sm font-body tracking-[2px] uppercase font-semibold transition-all duration-300 hover:opacity-90 disabled:opacity-60 border-none cursor-pointer"
+            className="self-start bg-[#E07A3A] text-white px-10 py-4 text-sm font-body tracking-[2px] uppercase font-semibold transition-all duration-300 hover:opacity-90 disabled:opacity-60 border-none cursor-pointer"
           >
             {status === "sending" ? "Sending..." : "Send Message"}
           </button>
 
           {status === "success" && (
-            <p className="text-[#3D7C47] font-body text-sm font-medium">
+            <p className="text-[#E07A3A] font-body text-sm font-medium">
               Message sent! I&rsquo;ll get back to you soon.
             </p>
           )}
           {status === "error" && (
-            <p className="text-[#253c59] font-body text-sm font-medium">
+            <p className="text-[#E07A3A] font-body text-sm font-medium">
               Something went wrong. Please email me directly at
               tinalbrenkus@gmail.com
             </p>
@@ -691,7 +691,7 @@ function WriterContact() {
                 href={link.href}
                 target={link.href.startsWith("http") ? "_blank" : undefined}
                 rel="noopener noreferrer"
-                className="text-dark no-underline text-[15px] font-body border-b border-transparent hover:border-[#253c59] transition-colors duration-300"
+                className="text-dark no-underline text-[15px] font-body border-b border-transparent hover:border-[#E07A3A] transition-colors duration-300"
               >
                 {link.value}
               </a>

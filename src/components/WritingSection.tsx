@@ -115,15 +115,15 @@ export default function WritingSection() {
               href={`/writing/${project.slug}`}
               className="no-underline text-inherit p-8 transition-all duration-300 cursor-pointer relative block"
               style={{
-                background: hoveredProject === i ? "#FFF8F0" : "#FAF0E6",
+                background: hoveredProject === i ? "#FFFBF5" : "#FFF5EB",
                 border: `1px solid ${
                   hoveredProject === i
-                    ? "rgba(196,59,82,0.19)"
-                    : "rgba(44,44,44,0.1)"
+                    ? "rgba(224,122,58,0.25)"
+                    : "#E8D5C4"
                 }`,
                 boxShadow:
                   hoveredProject === i
-                    ? "0 8px 32px rgba(0,0,0,0.06), 0 0 0 1px rgba(196,59,82,0.08)"
+                    ? "0 8px 32px rgba(0,0,0,0.06), 0 0 0 1px rgba(224,122,58,0.1)"
                     : "0 2px 8px rgba(0,0,0,0.03)",
               }}
               onMouseEnter={() => setHoveredProject(i)}
@@ -145,10 +145,7 @@ export default function WritingSection() {
               </div>
 
               <h3
-                className="text-2xl font-normal font-editorial mb-3 transition-colors duration-300"
-                style={{
-                  color: hoveredProject === i ? "#1A1A2E" : "#2C2C2C",
-                }}
+                className="text-2xl font-normal font-editorial mb-3 transition-colors duration-300 text-charcoal"
               >
                 {project.name}
               </h3>

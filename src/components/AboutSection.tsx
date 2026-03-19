@@ -4,7 +4,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="py-[120px] px-6 md:px-10 bg-cream">
       <div className="max-w-[900px] mx-auto">
-        <div className="font-body text-[13px] tracking-[4px] uppercase text-[#3D7C47] mb-12 font-semibold">
+        <div className="font-body text-[13px] tracking-[4px] uppercase text-accent mb-12 font-semibold">
           About
         </div>
 

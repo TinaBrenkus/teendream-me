@@ -35,7 +35,7 @@ export default function Navigation() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 h-[72px] px-6 md:px-10 flex justify-between items-center transition-all duration-300 ${
         scrolled
-          ? "bg-linen/90 backdrop-blur-xl border-b border-border"
+          ? "bg-[#2D1F14]/95 backdrop-blur-xl border-b border-[#E8D5C4]/20"
           : "bg-transparent"
       }`}
     >
@@ -44,7 +44,7 @@ export default function Navigation() {
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       >
         <span className="text-accent">Teen</span>
-        <span className="text-charcoal">Dream</span>
+        <span className={scrolled ? "text-white" : "text-charcoal"}>Dream</span>
       </div>
 
       {/* Desktop nav */}
@@ -56,7 +56,9 @@ export default function Navigation() {
             className={`text-[13px] tracking-[2px] uppercase font-body font-medium transition-colors duration-300 bg-transparent border-none cursor-pointer ${
               activeSection === item.toLowerCase()
                 ? "text-accent"
-                : "text-light hover:text-dark"
+                : scrolled
+                  ? "text-white/70 hover:text-white"
+                  : "text-light hover:text-dark"
             }`}
           >
             {item}
@@ -71,25 +73,25 @@ export default function Navigation() {
         aria-label="Toggle menu"
       >
         <span
-          className={`block w-6 h-0.5 bg-charcoal transition-all duration-300 ${
-            menuOpen ? "rotate-45 translate-y-2" : ""
-          }`}
+          className={`block w-6 h-0.5 transition-all duration-300 ${
+            scrolled ? "bg-white" : "bg-charcoal"
+          } ${menuOpen ? "rotate-45 translate-y-2" : ""}`}
         />
         <span
-          className={`block w-6 h-0.5 bg-charcoal transition-all duration-300 ${
-            menuOpen ? "opacity-0" : ""
-          }`}
+          className={`block w-6 h-0.5 transition-all duration-300 ${
+            scrolled ? "bg-white" : "bg-charcoal"
+          } ${menuOpen ? "opacity-0" : ""}`}
         />
         <span
-          className={`block w-6 h-0.5 bg-charcoal transition-all duration-300 ${
-            menuOpen ? "-rotate-45 -translate-y-2" : ""
-          }`}
+          className={`block w-6 h-0.5 transition-all duration-300 ${
+            scrolled ? "bg-white" : "bg-charcoal"
+          } ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`}
         />
       </button>
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="absolute top-[72px] left-0 right-0 bg-linen/95 backdrop-blur-xl border-b border-border md:hidden flex flex-col py-6 px-6 gap-1">
+        <div className="absolute top-[72px] left-0 right-0 bg-[#2D1F14]/95 backdrop-blur-xl border-b border-[#E8D5C4]/20 md:hidden flex flex-col py-6 px-6 gap-1">
           {NAV_ITEMS.map((item) => (
             <button
               key={item}
@@ -97,7 +99,7 @@ export default function Navigation() {
               className={`text-left text-[13px] tracking-[2px] uppercase font-body font-medium py-3 bg-transparent border-none cursor-pointer ${
                 activeSection === item.toLowerCase()
                   ? "text-accent"
-                  : "text-light"
+                  : "text-white/70"
               }`}
             >
               {item}
