@@ -13,7 +13,7 @@ export default function AboutSection() {
           <div className="shrink-0">
             <div className="w-[200px] h-[200px] md:w-[260px] md:h-[260px] rounded-full overflow-hidden border-4 border-linen shadow-[0_8px_32px_rgba(0,0,0,0.08)]">
               <Image
-                src="/images/portfolio/TinaBrenkusProfilePicCrimson.jpg"
+                src="/images/portfolio/TinaBrenkusProfilePicOrange.jpg"
                 alt="Tina Brenkus"
                 width={520}
                 height={520}
