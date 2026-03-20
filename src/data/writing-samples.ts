@@ -11,6 +11,120 @@ export interface WritingSample {
 
 export const WRITING_SAMPLES: WritingSample[] = [
   {
+    slug: "contrarian-thinking",
+    title: "Contrarian Thinking — AI Money Newsletter",
+    client: "Contrarian Thinking",
+    industry: "Newsletter / Brand Voice / AI Content / Editorial Strategy",
+    description:
+      "Written for Codie Sanchez's Contrarian Thinking, a media company reaching 1M+ subscribers across newsletters, YouTube, and social. AI Money is a new publication focused on helping small business owners and solopreneurs adopt AI tools to save time, cut costs, and build smarter businesses.",
+    content: `I was brought on as a senior newsletter writer to develop the voice, tone, and editorial approach for the launch. The welcome newsletter below is the first piece a subscriber sees when they sign up — it sets the tone for the entire publication and has to accomplish three things in under 800 words: establish trust, prove value, and get the reader to open the next email.
+
+**Subject line: Welcome to AI Money — your unfair advantage is inside**
+
+You just made a decision most people won't.
+
+While everyone else yells about AI taking their jobs, you're learning how to use it to make more money.
+
+You just picked a side.
+
+Every week, we'll show you tactical ways to use AI to make more money.
+
+Not theory. Not hype. Not a 47-step masterclass.
+One tool, one use case, one framework per week with proof.
+The kind of stuff you can implement before mixing that mad morning protein shake.
+And it compounds like interest for your business.
+If you've never opened ChatGPT or you use it daily —
+
+Without a framework, you're leaving money on the table.
+
+Let's go find it.
+
+**Why AI is the Biggest Wealth Transfer of Our Lifetime**
+
+Every major technology shift creates a wealth transfer.
+Internet. Social media. E-commerce.
+AI is doing it right now. Faster than any of them.
+But here's what makes this one different: the tools are free.
+You don't need venture capital.
+You don't need a computer science degree.
+You don't need to build the AI.
+You just need to use it strategically and consistently before your competitors figure out they should.
+And they are. They're also seeing results.
+
+Small business owners are waking up. And according to these numbers you'd think everyone is on board.
+
+But 82% of the smallest business owners—the ones with the most to gain—are taking a nap on AI.
+
+Businesses with under 5 employees lack knowledge about AI tools.
+
+They're more concerned about day-to-day operations and getting sh*t done.
+
+Owner-operators think they don't have time to learn how AI can make more money for their businesses.
+
+*82 percent of businesses under five employees reported relevance as a reason they were not planning to use AI in the near future. In comparison, the next most reported concerns were lack of knowledge about AI and privacy concerns which were reported by 6.7 percent and 6.3 percent of businesses under five employees.
+
+The gap between "I've tried ChatGPT" and "I've built AI into how my business runs" is where the money lives.
+
+Small businesses may be bumping into walls but large corporations are also struggling to implement tactical strategies that move the needle.
+
+We've got a jacked high beam headlamp to lead you out of the dark and towards your first simple shift to making money with AI.
+
+**Framework: Put AI into Play in 10 Minutes a Day**
+
+**Step 1:**
+Write down the 3 tasks you spent the most time on last week that didn't directly make you money.
+The stuff that has to get done but doesn't make the register ring.
+Answering the same customer questions
+Organizing receipts
+Writing follow-up emails, updating your schedule, creating social posts.
+
+**Step 2:**
+Pick one.
+Open ChatGPT or Claude (both free). Describe the task like you're explaining it to a smart new employee.
+Be specific.
+"I need to write a follow-up email to a customer who got a quote from me three days ago but hasn't responded."
+Hit enter.
+
+**Step 3:**
+Time it. How long did that take vs. doing it yourself?
+
+**Step 4:**
+Multiply the time saved \u00D7 frequency per week \u00D7 52.
+For most people it's 50-200 hours per year.
+On one task.
+Now multiply that across five tasks.
+That's a real life example that proves time saved equals mo-money, y'all.
+Not from expensive software but from asking a free tool to do what you were already going to do.
+Faster.
+
+**Bonus:**
+Make it a template for all follow up responses and save even more time
+Start tracking those responses that convert to paying customers
+Talk about annual ROI from a single prompt.
+
+That was your first 10 minutes with AI Money.
+Here's what's coming:
+
+**Next week:**
+Is Your Business Worth Buying? (Use AI to Find Out in 30 Minutes)
+
+**Then:**
+The Boring AI Stack: Every Tool a Small Business Needs (and Nothing It Doesn't)
+
+**Coming soon:**
+The AI Tools Your Competitors Are Already Using (And You're Paying Humans to Do Instead)
+
+That's the kind of content we're going to send you every week.
+One tool, one real use case, one framework you can use and give you more time to get to the gym and crush some lead.
+You're welcome. Or, I'm sorry.
+
+**One last thing.**
+Hit reply and tell me: what's the one task in your business you wish AI could just handle?
+Your answers shape what we cover next.
+Let's go make that AI money.`,
+    images: [],
+  },
+  {
     slug: "dallas-market-center",
     title: "Dallas Market Center Projects",
     client: "Dallas Market Center",
@@ -216,24 +330,6 @@ I created a 26-episode Fashion Week franchise for broadcast and digital — cove
 
 **Brand Integrations & Social**
 I also wrote brand integration scripts and social content, ensuring sponsored segments felt organic within the show's voice and tone.`,
-    images: [],
-  },
-  {
-    slug: "ai-money",
-    title: "Contrarian Thinking / AI Money",
-    client: "Contrarian Thinking / AI Money",
-    industry: "Newsletter / AI / Finance",
-    description:
-      "Newsletter writer creating welcome sequences and content strategy for AI Money, a new newsletter from Contrarian Thinking (Codie Sanchez).",
-    content: `I worked with Contrarian Thinking — Codie Sanchez's media company with 800K+ subscribers — to write and develop content strategy for their new AI-focused newsletter, AI Money.
-
-**Welcome Newsletter**
-I wrote the welcome newsletter sequence for new AI Money subscribers — the critical first touchpoints that set the tone, establish trust, and drive engagement for the new publication.
-
-**Content Strategy**
-I developed the content strategy for AI Money, helping define the editorial voice, content pillars, and newsletter structure for an audience interested in practical AI applications for business and investing.
-
-The work required balancing Codie Sanchez's established brand voice with a new AI-focused editorial direction — making complex AI topics accessible and actionable for an entrepreneurial audience.`,
     images: [],
   },
   {

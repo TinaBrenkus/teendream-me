@@ -13,20 +13,20 @@ interface WritingProject {
 
 const WRITING_PROJECTS: WritingProject[] = [
   {
+    name: "Contrarian Thinking",
+    slug: "contrarian-thinking",
+    role: "Senior Newsletter Writer (Contract)",
+    description:
+      "Welcome newsletter and content strategy for AI Money, a new newsletter from Contrarian Thinking (Codie Sanchez). AI-focused content for 1M+ subscriber ecosystem.",
+    tags: ["Newsletter", "Brand Voice", "AI Content", "Editorial Strategy"],
+  },
+  {
     name: "New Western",
     slug: "new-western",
     role: "Senior Copywriter | 2022–2025",
     description:
       "Brand voice, email campaigns, social ads, Instagram content, product launches, executive communications, national media placements.",
     tags: ["Brand Voice", "Social", "Email", "Advertising", "Print"],
-  },
-  {
-    name: "Contrarian Thinking / AI Money",
-    slug: "ai-money",
-    role: "Newsletter Writer (Contract)",
-    description:
-      "Welcome newsletter and content strategy for AI Money, a new newsletter from Contrarian Thinking (Codie Sanchez). AI-focused content for 800K+ subscriber ecosystem.",
-    tags: ["Newsletter", "Content Strategy", "AI", "Brand Voice"],
   },
   {
     name: "Dallas Market Center",
