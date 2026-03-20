@@ -49,8 +49,8 @@ const WRITING_PROJECTS: WritingProject[] = [
     slug: "wwd",
     role: "Freelance Copywriter",
     description:
-      "Facebook ad copy and sales emails for fashion's leading trade publication. High-conversion short-form ads.",
-    tags: ["Social Ads", "Email", "Fashion", "Short-Form"],
+      "High-conversion Facebook ad copy and premium subscriber email content for fashion's leading trade publication, including a multi-part retrospective series.",
+    tags: ["Ad Copy", "Email", "Subscriber Content", "Editorial", "Fashion"],
   },
   {
     name: "Authoritive",
