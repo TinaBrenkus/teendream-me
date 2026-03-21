@@ -613,8 +613,183 @@ Write Day by Day is a 30 day SMS program from author and writing coach Courtney 
 **YOUR CONFIDENCE CODE**
 Your Confidence Code is a course based on a NY Times bestselling book, The Confidence Code by journalists and authors Katty Kay and Claire Shipman. I created the strategy and wrote the content for the sales landing page. I also created email newsletters to warm up their email list, sales email sequences, and course content.
 
-**THE FUTURE-READY LEADER**
+**[THE FUTURE-READY LEADER](/writing/future-ready-leader)**
 I worked with Dr. Tasha Eurich to promote and sell her course, The Future-Ready Leader, based on her book, Insight. I created and wrote the content for the landing page of her website. I also strategized and wrote email campaigns to sell the course. This email series needed to be content driven, in Dr. Eurich's voice and targeting an audience of business executives on her email list.`,
+    images: [],
+  },
+  {
+    slug: "future-ready-leader",
+    title: "The Future-Ready Leader \u2014 Email Funnel",
+    client: "Authoritive / Dr. Tasha Eurich",
+    industry: "Online Courses / Email Marketing / Leadership",
+    description:
+      "A 3-email sales funnel for Dr. Tasha Eurich\u2019s self-awareness leadership course. Written in her voice, targeting C-level executives and aspiring leaders on her waitlist. The sequence drove early bird registrations at $149 before the $199 launch price.",
+    content: `Email funnel that turned fans into customers. A 3-part email sequence written for Dr. Tasha Eurich\u2019s waitlist, designed to convert interest into registrations for The Future-Ready Leader course.
+
+**EMAIL #1 \u2014 Launch Day**
+
+Subject line: Your special offer from me to you is available TODAY!
+
+It\u2019s time to become a Future Ready Leader.
+
+REGISTER NOW
+
+**EARLY BIRD PRICE! Only $149 for a limited time
+
+Good news!
+
+Early bird pricing launches TODAY for our valued community members who signed up for the waitlist (i.e., you!).
+
+Register now and pay just $149 for The Future Ready Leader course.
+
+EVEN BETTER NEWS...
+
+When you register today, you\u2019ll also receive early access to a special section of the course, plus a bonus exercise.
+
+As I mentioned in my last message, given what\u2019s going on in the world, now is a great time to develop your self-awareness.
+
+I\u2019ve gotten some supportive feedback from folks like David Arraya who says, \u201CI\u2019m so grateful I read your book months before all this happened. I am 100% certain I would not have tackled the challenges faced lately without these insights.\u201D
+
+In my current conversations with the C-level executives I coach, I\u2019ve asked what their biggest struggle is right now... the overwhelming response?
+
+They are totally overwhelmed.
+
+Their teams are dispersed, their employees are working remotely, and there is more pressure on their shoulders than ever before.
+
+So what exactly does it take to lead through this unprecedented disruption and change?
+
+Agile, adaptable, future-ready leadership.
+
+As an organizational psychologist and executive coach to some of the most successful people in the world, I\u2019ve had the unique opportunity to study the behavior of thousands of leaders, from public company CEOs to early-stage entrepreneurs. And the evidence could not be more clear\u2014self awareness is the single greatest predictor of leadership success.
+
+Yet through a multi-year research project on the topic, I came across a surprising and thought-provoking truth:
+
+95 percent of people think they\u2019re self-aware, but only about 10 to 15 percent actually are.
+
+Here\u2019s what\u2019s even scarier: the higher leaders rise in the corporate hierarchy, the less self-aware they tend to become.
+
+What does that mean for you as a formal (or aspiring) leader? What does that mean for your team? What does that mean for your company?
+
+It means that if you can improve your self-awareness, even say, 20 percent, you will stand out and get ahead.
+
+THE FUTURE READY LEADER is a groundbreaking program to help you become a more self-aware leader. It will also help you build more self-aware teams and organizations, where candor trumps hierarchy and even the most junior members feel comfortable surfacing issues.
+
+This interactive learning experience is the first of its kind and features the surprising research and battle-tested tools from my book, Insight. It will not only help you achieve greater professional success, but to become a motivating force for your organization and positively impact business results.
+
+In fact, the early results are quite promising.
+
+Participants reported a return on investment in several key areas:
+\u2022 Leadership: 100%
+\u2022 Work relationships: 100%
+\u2022 Influence and communication: 92%
+\u2022 Dealing with difficult people: 92%
+\u2022 Sales effectiveness: 92%
+\u2022 Personal (non-work) relationships: 100%
+\u2022 Job performance: 67%
+
+Are you ready to experience these improvements?
+
+REGISTER NOW and get The Future Ready Leader course for just $149.
+
+We\u2019re excited to offer you this limited time offer, so take advantage and register now before the price goes up to $199 when the course launches.
+
+I look forward to joining you on this journey.
+
+Tasha
+
+**EMAIL #2 \u2014 Follow-Up to Waitlist**
+
+Subject line: Am I self aware? I have a confession to make...
+
+It\u2019s time to become a Future Ready Leader
+
+REGISTER NOW
+
+**EARLY BIRD PRICE! Only $149 for a limited time
+
+So you might just be wondering, Okay Tasha, what about your self awareness?
+
+I used to think that I was doing pretty well on this front. After all, I wrote a book on the subject, studied and collected the data, and have spent more than 15 years helping senior executives become more self-aware. Right?
+
+Wrong.
+
+I, like so many others, was in for a rude awakening. After using the tools I developed on myself, I discovered that I, too, was not as self-aware as I once thought!
+
+It was a humbling revelation, but it shouldn\u2019t have been surprising. Our research shows that 99 percent of us know at least one un-self-aware person!
+
+You might be picturing such a person right now. An old boss, maybe a coworker, or even someone you\u2019ve dated. And most people who need to be more self aware don\u2019t even know it!
+
+But there\u2019s a silver lining here: this also means that we are in this together. And if we are willing to do the work, we can all reap the rewards of seeing ourselves more clearly.
+
+And when it comes to improving our self-awareness, there\u2019s good news and bad news.
+
+First, the bad news: our research has shown that very often, the most common approaches people use to become more self-aware\u2026 don\u2019t actually work. The good news? With the right (science-based) approach, almost anyone can dramatically improve their self-awareness, and in less time than you might think.
+
+That\u2019s why I\u2019m so excited for you to join The Future Ready Leader course.
+
+From the very first lesson, you\u2019ll discover tools and approaches to make immediate improvement that will stick with you for the long haul.
+
+A perfect example? Learning to seek honest feedback and discover where you stand with others. This will unlock a whole new level of success and control of your destiny.
+
+In fact, leaders just like you are experiencing some amazing results from this course...
+
+75% of participants reported that it helped them become a more future ready leader
+
+AND
+
+100% would recommend the course to a friend
+
+One foundational skill can change your whole path and lead you to a happier and more successful life.
+
+EARLY BIRD PRICING IS STILL AVAILABLE!
+
+REGISTER NOW and get The Future Ready Leader course for just $149.
+
+Once the course launches, pricing will return to $199.
+
+And the BONUS: Receive early access to a special section of the course, plus a bonus exercise.
+
+I can\u2019t wait to join you on this journey,
+
+Tasha
+
+**EMAIL #3 \u2014 Final Push**
+
+Subject line: Leaders are the most affected by this...
+
+It\u2019s time to become a Future Ready Leader
+
+REGISTER NOW
+
+**EARLY BIRD PRICE! Only $149 for a limited time
+
+This might be tough to hear, but the higher up you are on the org. chart at work, the less self aware you tend to be.
+
+With the tools and strategies in The Future Ready Leader course, one of the most important take-aways will be to more clearly understand how you see yourself, and how others see you.
+
+The results might surprise you and change your mindset forever.
+
+Are you brave enough to take the next steps to improve this critical leadership skill?
+
+When you join The Future Ready Leader, you\u2019ll see that you stand to gain more in both your personal and professional life than you can possibly imagine.
+
+In fact, 83% of participants reported a significant increase in their self-awareness after completing the course.
+
+And organizations just like yours are reaping the benefits from tackling this work.
+
+\u201CI can honestly say that there has been no person in the last ten years that has had the impact of Tasha Eurich. She [has] changed the face of leadership development and training [in our organization]. The value of her \u2018product\u2019 is beyond compare.\u201D \u2014 Clarence McDavid, VP Human Resources
+
+Dive in now and take advantage of our EARLY BIRD PRICE, just for members of our community.
+
+REGISTER NOW for unlimited, lifetime access for $149.
+
+Once the course launches, the price goes up to $199. Don\u2019t wait!
+
+And reap the benefits of early access\u2014you\u2019ll receive a special section of the course, plus a bonus exercise.
+
+I can\u2019t wait to see your results.
+
+Tasha`,
     images: [],
   },
 ];
