@@ -464,7 +464,87 @@ And Cooler Rest was born. Now that's happily ever after.
 
 The Cooler Rest has been spotted from coast to coast and kick back to kick back providing chill spots to sit on back porches, tailgates, fishing boats, swimming docks, hunting grounds, picnics in the park, and many, way too many, backyards.
 
-We want you to enjoy what you do outdoors with little fuss and even less effort, all from the comfort of your cooler. See ya outside.`,
+We want you to enjoy what you do outdoors with little fuss and even less effort, all from the comfort of your cooler. See ya outside.
+
+**PRODUCT NAMING**
+
+It\u2019s a fish
+That\u2019s a buck
+Man\u2019s best friend
+Flapping Old Glory
+Yep. It\u2019s a pineapple
+Plain and powerful
+Duck in flight
+
+**PRODUCT DESCRIPTIONS**
+
+**Classic \u2014 For showing what you\u2019re into.**
+
+The stats:
+
+Backcountry or backyard, your cooler is dressed to impress and has your back.
+
+The Classic offers a white screen-printed design on a sturdy, metal frame. A duck, a fish, a deer, a dog, a pineapple, Old Glory, and just plain ole plain.
+
+Pick your color and choose your favorite design. The Classic has your personal interest in mind.
+
+What to expect when you choose the Classic?
+Friendly smiles, respectful nods, a double thumbs up, and a salute to your superb, classy taste.
+
+**Premier \u2014 For taking it up a notch.**
+
+The stats:
+
+Backcountry or backyard, your cooler is dressed to impress and has your back.
+
+The Premier takes it up an actual notch using a metal punch thru process to create a pattern. The design is a cutout and you can see right thru it.
+
+Pick your color and choose your favorite design. The Premier shows you mean business and a good time.
+
+What to expect when you choose the Premier?
+New friends, meaningful conversation, fishing tips, and deep admiration.
+
+Premier designs:
+\u2022 Birds in Formation
+\u2022 Skoolin\u2019 Fish
+\u2022 Wickety Wack Weave
+\u2022 Bottles of Beer
+\u2022 Six Sides to a Hexagon
+
+**The Custom \u2014 For being boss of the outdoors.**
+
+Custom is all about you. We provide the sturdy metal frame and kick butt colors, all you have to do is tell us what you want designed. We make it for ya. Whether it\u2019s just for you or your whole dang company.
+
+What to expect when you choose the Custom?
+Double takes, honorary awards, maybe a free cabin for the weekend, and a whole new customized, outdoor-loving, reputation.
+
+**INDIVIDUAL PRODUCT PAGE \u2014 Classic**
+
+It\u2019s a fish (walleye if you\u2019re being particular).
+
+You like the fish; now pick your color.
+
+Be sure to check that your cooler is on this list!
+
+Made for YETI Tundra 45, 65, & 105
+Made for Igloo Sportsman 55 & 70
+
+**FAQs**
+
+Q: Now how do I hook this sucker up?
+A: Insert the backrest into the slots on each side of your cooler and well, take a seat.
+
+Q: What if I need to open the cooler?
+A: Stand up. Turn around. Open your cooler like you always do. Just don\u2019t forget to shut the lid before you sit back down.
+
+Q: I know I just attached the dang Cooler Rest but I need to remove it. Don\u2019t ask why.
+A: We had a feeling this would happen so we built Cooler Rest to easily detach and re-attach to your little heart\u2019s content. No questions asked, although we do like funny stories if ya feel like sharing.
+
+Q: I\u2019m a rather imposing figure, not to brag. How sturdy is this thing?
+A: Our Cooler Rest is built to last with a durable powder-coated metal frame. Imposing figures welcome.
+
+Q: Do y\u2019all actually make these things?
+A: Yep. Right here in Shiner, TX. Come see us some time.`,
     images: [
       "CoolerRestBackRest.avif",
       "CoolerRestonYeti.avif",
