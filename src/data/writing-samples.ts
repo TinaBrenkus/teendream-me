@@ -444,11 +444,7 @@ And Beachbox was born.`,
     industry: "Outdoor / Product",
     description:
       "In house copywriter creating the entire marketing launch for an innovative outdoor product.",
-    content: `I moved to Shiner, Texas — population 2000 — to work for a family owned creative agency that was building out their client base.
-
-Biggest perk — My office was across the street from the Shiner brewery and they had daily free tastings of all the new flavors. The freshest beer ya ever tasted.
-
-Kaspar Companies in Shiner TX developed the Cooler Rest and then asked me to create the entire marketing launch for the product. Origin story, product names and descriptions, email, social media.
+    content: `Complete marketing launch for an innovative outdoor cooler accessory developed by Kaspar Companies (Shiner, TX). I was the sole copywriter on the project \u2014 responsible for brand positioning, product naming, product descriptions, origin story, About Us page, email campaigns, and social media content. The work required translating a brand-new product category into language that outdoor enthusiasts would immediately understand and want \u2014 from the shelf-level product copy to the brand story behind it.
 
 **ABOUT US**
 
