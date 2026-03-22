@@ -131,6 +131,26 @@ export default async function WritingSamplePage({ params }: PageProps) {
                   );
                 }
               }
+              // Check if paragraph contains bullet points (lines starting with •)
+              const lines = paragraph.split("\n");
+              const isBulletList = lines.every((l) => l.trim().startsWith("•") || l.trim() === "");
+              if (isBulletList) {
+                return (
+                  <ul
+                    key={i}
+                    className="text-[16px] leading-[1.8] text-med font-body font-light mb-6 list-none pl-0 flex flex-col gap-1"
+                  >
+                    {lines
+                      .filter((l) => l.trim().startsWith("•"))
+                      .map((line, j) => (
+                        <li key={j} className="flex gap-2">
+                          <span className="text-accent">•</span>
+                          <span>{renderWithLinks(line.trim().slice(1).trim())}</span>
+                        </li>
+                      ))}
+                  </ul>
+                );
+              }
               return (
                 <p
                   key={i}

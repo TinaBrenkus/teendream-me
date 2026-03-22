@@ -468,13 +468,13 @@ We want you to enjoy what you do outdoors with little fuss and even less effort,
 
 **PRODUCT NAMING**
 
-It\u2019s a fish
-That\u2019s a buck
-Man\u2019s best friend
-Flapping Old Glory
-Yep. It\u2019s a pineapple
-Plain and powerful
-Duck in flight
+\u2022 Fish Print \u2014 It\u2019s a Fish
+\u2022 Deer Print \u2014 That\u2019s a Buck
+\u2022 Dog Print \u2014 Man\u2019s Best Friend
+\u2022 American Flag Print \u2014 Flappin Old Glory
+\u2022 Pineapple Print \u2014 Yep. That\u2019s a Pineapple
+\u2022 Duck Print \u2014 Duck in Flight
+\u2022 No Print/Plain \u2014 Plain and Powerful
 
 **PRODUCT DESCRIPTIONS**
 
