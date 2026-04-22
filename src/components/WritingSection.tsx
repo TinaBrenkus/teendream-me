@@ -61,8 +61,8 @@ const WRITING_PROJECTS: WritingProject[] = [
     tags: ["Landing Pages", "Email", "Launch Campaigns", "Social"],
   },
   {
-    name: "A Pep Filled Life",
-    slug: "a-pep-filled-life",
+    name: "Built in Texas Co.",
+    slug: "built-in-texas-co",
     role: "Founder & Creator",
     description:
       "Digital wall art combining humor, Texas charm, and wordplay. Full creative — ideas, copy, design, mockups, SEO, and Etsy shop management.",

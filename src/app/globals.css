@@ -4,10 +4,10 @@
   --color-linen: #FFFBF5;
   --color-cream: #FFF5EB;
   --color-warm-white: #FFFBF5;
-  --color-charcoal: #2D1F14;
-  --color-dark: #2D1F14;
-  --color-med: #5C4033;
-  --color-light: #9A8576;
+  --color-charcoal: #3D3029;
+  --color-dark: #3D3029;
+  --color-med: #6B5849;
+  --color-light: #A99484;
   --color-accent: #E07A3A;
   --color-accent-soft: rgba(224, 122, 58, 0.08);
   --color-border: #E8D5C4;
@@ -23,7 +23,7 @@
 
   body {
     background: #FFFBF5;
-    color: #5C4033;
+    color: #6B5849;
     font-family: 'Helvetica Neue', Arial, sans-serif;
   }
 }

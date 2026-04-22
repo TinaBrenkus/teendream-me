@@ -548,9 +548,9 @@ A: Yep. Right here in Shiner, TX. Come see us some time.`,
     ],
   },
   {
-    slug: "a-pep-filled-life",
-    title: "A Pep Filled Life",
-    client: "A Pep Filled Life",
+    slug: "built-in-texas-co",
+    title: "Built in Texas Co.",
+    client: "Built in Texas Co.",
     industry: "Wall Art / Etsy / Humor / Product Copy",
     description:
       "My own Etsy shop — digital wall art combining humor, Texas charm, and wordplay.",
@@ -560,6 +560,7 @@ Come up with the ideas, write the copy, create the designs, create the mockups, 
 
 I created an Etsy shop to have a home for my digital wall art.`,
     images: [
+      "BuiltInTXCOEtsyBanner.jpg",
       "EtsyCowImage.avif",
       "EtsySweetAssHome.avif",
       "HomeButtStays.avif",

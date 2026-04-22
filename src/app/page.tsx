@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
+import FeaturedWorkSection from "@/components/FeaturedWorkSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import WritingSection from "@/components/WritingSection";
 import AboutSection from "@/components/AboutSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <Navigation />
       <main>
         <HeroSection />
+        <FeaturedWorkSection />
         <WritingSection />
         <ProjectsSection />
         <AboutSection />
