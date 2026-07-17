@@ -31,9 +31,8 @@ export default function HeroSection() {
 
         <p className="text-xl leading-[1.7] text-med max-w-[640px] mb-12 font-body font-light">
           Senior copywriter with 8+ years of brand campaign experience across
-          social, digital, video, email, and experiential. I&rsquo;ve also built
-          and deployed 7 websites using Claude Code + Vercel — because the best
-          way to understand AI is to build with it.
+          social, digital, video, email, and experiential. I also build
+          websites, graphics, and digital content using Claude Code.
         </p>
 
         <div className="flex gap-4 flex-wrap">

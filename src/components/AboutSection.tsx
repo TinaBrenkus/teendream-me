@@ -25,20 +25,22 @@ export default function AboutSection() {
           {/* Copy */}
           <div className="flex flex-col gap-6 text-[17px] leading-[1.8] text-med font-editorial text-center md:text-left">
             <p>
-              I&rsquo;ve spent my career writing for brands and cameras — from
-              the writers&rsquo; room at E!&nbsp;Networks to building brand
-              voice for national companies. In the past year, I&rsquo;ve also
-              become an AI builder, shipping 7 websites with Claude Code and
-              Vercel.
+              What started as a teen dream giving tours of The Tonight Show at
+              NBC in Burbank turned into a writing career creating short-form
+              video for live entertainment television broadcasts.
             </p>
             <p>
-              I think in campaigns, not just executions. I write copy built for
-              production, not just presentation. And I bring ideas to every
-              brainstorm that make the work better.
+              And led to creating content for brands big and small.
             </p>
             <p>
-              I&rsquo;m based in Texas. Available for full-time, contract, and
-              remote roles.
+              From Dallas to Los Angeles, New York and Minneapolis I&rsquo;m an
+              experienced writer who can wield AI to operate like a well-oiled
+              machine and launch products with authenticity that can only come
+              from a thoughtful human.
+            </p>
+            <p>
+              I live in Texas, love the great outdoors, long walks on the ranch,
+              and am making a serious attempt to call myself a gardener.
             </p>
           </div>
         </div>

@@ -119,7 +119,7 @@ export default function FeaturedWorkSection() {
                 target={isExternal ? "_blank" : undefined}
                 rel={isExternal ? "noopener noreferrer" : undefined}
                 className={`group relative overflow-hidden rounded-2xl no-underline transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${project.span || ""} ${
-                  project.image ? "min-h-[280px]" : "min-h-[240px]"
+                  project.image ? "min-h-[280px]" : "min-h-[200px]"
                 }`}
                 style={{
                   background: project.bgColor || undefined,
@@ -172,7 +172,7 @@ export default function FeaturedWorkSection() {
                   </>
                 ) : (
                   <div
-                    className={`h-full bg-gradient-to-br ${project.gradient || "from-cream to-linen"} p-7 flex flex-col justify-end`}
+                    className={`h-full bg-gradient-to-br ${project.gradient || "from-cream to-linen"} p-7 flex flex-col justify-center`}
                   >
                     <span
                       className={`text-[11px] tracking-[2px] uppercase font-body font-semibold mb-2 block ${project.textColor ? project.textColor + "/70" : "text-light"}`}

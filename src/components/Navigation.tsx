@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { usePathname, useRouter } from "next/navigation";
 
 const NAV_ITEMS = ["Writing", "Projects", "About", "Contact"];
 
@@ -8,6 +9,9 @@ export default function Navigation() {
   const [activeSection, setActiveSection] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+  const router = useRouter();
+  const isHome = pathname === "/";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,10 +30,17 @@ export default function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollTo = useCallback((id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-    setMenuOpen(false);
-  }, []);
+  const scrollTo = useCallback(
+    (id: string) => {
+      setMenuOpen(false);
+      if (isHome) {
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+      } else {
+        router.push(`/#${id}`);
+      }
+    },
+    [isHome, router]
+  );
 
   return (
     <nav
@@ -41,7 +52,11 @@ export default function Navigation() {
     >
       <div
         className="font-editorial text-xl font-bold tracking-[3px] uppercase cursor-pointer"
-        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        onClick={() =>
+          isHome
+            ? window.scrollTo({ top: 0, behavior: "smooth" })
+            : router.push("/")
+        }
       >
         <span className="text-accent">Teen</span>
         <span className={scrolled ? "text-white" : "text-charcoal"}>Dream</span>
